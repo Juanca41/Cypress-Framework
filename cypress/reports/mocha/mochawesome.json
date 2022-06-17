@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 2,
     "failures": -1,
-    "start": "2022-06-16T04:43:55.737Z",
-    "end": "2022-06-16T04:44:25.655Z",
-    "duration": 29918,
+    "start": "2022-06-17T06:31:58.895Z",
+    "end": "2022-06-17T06:32:28.205Z",
+    "duration": 29310,
     "testsRegistered": 6,
     "passPercent": 100,
     "pendingPercent": 33.33333333333333,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e73b8241-6144-4ddc-b89a-d7c26032ab22",
+      "uuid": "01e61b05-bd87-4676-9994-3ad2cdde2577",
       "title": "",
       "fullFile": "cypress/e2e/apps/web-app/login_tests.cy.js",
       "file": "cypress/e2e/apps/web-app/login_tests.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ba36744a-904a-4aec-a080-5fa054099c7f",
+          "uuid": "04abee9a-f0fe-42bd-bb3e-0d33bcb3a3db",
           "title": "Login Page test cases",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "BetterVet login - Negative",
               "fullTitle": "Login Page test cases BetterVet login - Negative",
               "timedOut": null,
-              "duration": 13756,
+              "duration": 14149,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.NegativeBetterVetLoginProcess)(data.user, data.password, data.expectedError);",
               "err": {},
-              "uuid": "25af20e9-7214-436b-a670-1ca3ec40c879",
-              "parentUUID": "ba36744a-904a-4aec-a080-5fa054099c7f",
+              "uuid": "395cb870-5945-4694-aabc-5cc02e39a0f1",
+              "parentUUID": "04abee9a-f0fe-42bd-bb3e-0d33bcb3a3db",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "BetterVet login - Negative",
               "fullTitle": "Login Page test cases BetterVet login - Negative",
               "timedOut": null,
-              "duration": 4001,
+              "duration": 4155,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.NegativeBetterVetLoginProcess)(data.user, data.password, data.expectedError);",
               "err": {},
-              "uuid": "b2596f53-25fd-4e21-8b0c-ace383027ade",
-              "parentUUID": "ba36744a-904a-4aec-a080-5fa054099c7f",
+              "uuid": "0d682532-edd9-4ad5-9906-b1edfcd80552",
+              "parentUUID": "04abee9a-f0fe-42bd-bb3e-0d33bcb3a3db",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "BetterVet login - Negative",
               "fullTitle": "Login Page test cases BetterVet login - Negative",
               "timedOut": null,
-              "duration": 4777,
+              "duration": 3763,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.NegativeBetterVetLoginProcess)(data.user, data.password, data.expectedError);",
               "err": {},
-              "uuid": "efff7607-d8e3-453e-9140-860a0bb34e7a",
-              "parentUUID": "ba36744a-904a-4aec-a080-5fa054099c7f",
+              "uuid": "0dbb72eb-86d1-497b-b60a-8c492e32e5a5",
+              "parentUUID": "04abee9a-f0fe-42bd-bb3e-0d33bcb3a3db",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "BetterVet login - Positive",
               "fullTitle": "Login Page test cases BetterVet login - Positive",
               "timedOut": null,
-              "duration": 6658,
+              "duration": 6250,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -101,8 +101,8 @@
               "context": null,
               "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.BetterVetLoginProcess)();\ncy.log(\"HOME PAGE\");\n(0, _home_page.HomePageTextValidations)();",
               "err": {},
-              "uuid": "eddc7fdf-f1ab-416d-bbc5-5d1dae714761",
-              "parentUUID": "ba36744a-904a-4aec-a080-5fa054099c7f",
+              "uuid": "cc7650fb-7076-4146-880d-a82ef8ff9a0f",
+              "parentUUID": "04abee9a-f0fe-42bd-bb3e-0d33bcb3a3db",
               "isHook": false,
               "skipped": false
             },
@@ -119,8 +119,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "e0245ca9-76b2-406a-92c6-54b6108abe96",
-              "parentUUID": "ba36744a-904a-4aec-a080-5fa054099c7f",
+              "uuid": "fcac56b5-55a6-4813-8a58-19f678cb4ccb",
+              "parentUUID": "04abee9a-f0fe-42bd-bb3e-0d33bcb3a3db",
               "isHook": false,
               "skipped": false
             },
@@ -137,26 +137,26 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "9637c2e3-045b-4bf7-bcec-b376d1defa15",
-              "parentUUID": "ba36744a-904a-4aec-a080-5fa054099c7f",
+              "uuid": "4b51195d-35d7-48da-a659-13baf4e03319",
+              "parentUUID": "04abee9a-f0fe-42bd-bb3e-0d33bcb3a3db",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "25af20e9-7214-436b-a670-1ca3ec40c879",
-            "b2596f53-25fd-4e21-8b0c-ace383027ade",
-            "efff7607-d8e3-453e-9140-860a0bb34e7a",
-            "eddc7fdf-f1ab-416d-bbc5-5d1dae714761"
+            "395cb870-5945-4694-aabc-5cc02e39a0f1",
+            "0d682532-edd9-4ad5-9906-b1edfcd80552",
+            "0dbb72eb-86d1-497b-b60a-8c492e32e5a5",
+            "cc7650fb-7076-4146-880d-a82ef8ff9a0f"
           ],
           "failures": [],
           "pending": [
-            "e0245ca9-76b2-406a-92c6-54b6108abe96",
-            "9637c2e3-045b-4bf7-bcec-b376d1defa15"
+            "fcac56b5-55a6-4813-8a58-19f678cb4ccb",
+            "4b51195d-35d7-48da-a659-13baf4e03319"
           ],
           "skipped": [],
-          "duration": 29192,
+          "duration": 28317,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
