@@ -16,7 +16,7 @@ export function HomePageTextValidations(){
     }).as("elementText")
 
     cy.get("@elementText").then(text => {
-        base.invokeTextToEqual(title, `Welcomes,  ${text}`)
+        base.invokeTextToEqual(title, `Welcome,  ${text}`)
     })
 
 

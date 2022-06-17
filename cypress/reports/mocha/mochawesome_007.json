@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-17T07:04:53.628Z",
+    "end": "2022-06-17T07:04:59.955Z",
+    "duration": 6327,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d5f92b62-8d63-4105-808c-02f81e892b18",
+      "title": "",
+      "fullFile": "cypress/e2e/apps/web-app/video_call_e2e.cy.js",
+      "file": "cypress/e2e/apps/web-app/video_call_e2e.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "14e984f2-aede-424c-824f-2e696cd39b25",
+          "title": "E2E Booking - Video Call Appointments",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Free Video Call",
+              "fullTitle": "E2E Booking - Video Call Appointments Free Video Call",
+              "timedOut": null,
+              "duration": 5869,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// HomePageTextValidations()",
+              "err": {},
+              "uuid": "c65c1b49-fa4d-4143-bd56-317909a715bb",
+              "parentUUID": "14e984f2-aede-424c-824f-2e696cd39b25",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c65c1b49-fa4d-4143-bd56-317909a715bb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5869,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "json": true,
+        "html": true,
+        "reportFileName": "report",
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

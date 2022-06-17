@@ -1,0 +1,210 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 3,
+    "pending": 2,
+    "failures": 0,
+    "start": "2022-06-17T07:04:04.347Z",
+    "end": "2022-06-17T07:04:34.774Z",
+    "duration": 30427,
+    "testsRegistered": 6,
+    "passPercent": 75,
+    "pendingPercent": 33.33333333333333,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3ca560c8-76be-4974-8407-4985420ca0df",
+      "title": "",
+      "fullFile": "cypress/e2e/apps/web-app/login_tests.cy.js",
+      "file": "cypress/e2e/apps/web-app/login_tests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1440f274-2405-487f-ade6-b3f5159645f5",
+          "title": "Login Page test cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "BetterVet login - Negative",
+              "fullTitle": "Login Page test cases BetterVet login - Negative",
+              "timedOut": null,
+              "duration": 14120,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.NegativeBetterVetLoginProcess)(data.user, data.password, data.expectedError);",
+              "err": {},
+              "uuid": "c328b617-e00c-4fd8-8e70-d70d280737a1",
+              "parentUUID": "1440f274-2405-487f-ade6-b3f5159645f5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "BetterVet login - Negative",
+              "fullTitle": "Login Page test cases BetterVet login - Negative",
+              "timedOut": null,
+              "duration": 4010,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.NegativeBetterVetLoginProcess)(data.user, data.password, data.expectedError);",
+              "err": {},
+              "uuid": "30bba20d-b24a-4054-aed2-8b49b7c42f84",
+              "parentUUID": "1440f274-2405-487f-ade6-b3f5159645f5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "BetterVet login - Negative",
+              "fullTitle": "Login Page test cases BetterVet login - Negative",
+              "timedOut": null,
+              "duration": 3711,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.NegativeBetterVetLoginProcess)(data.user, data.password, data.expectedError);",
+              "err": {},
+              "uuid": "25aad28c-d9ef-4e99-9705-ddbd443c1fec",
+              "parentUUID": "1440f274-2405-487f-ade6-b3f5159645f5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "BetterVet login - Positive",
+              "fullTitle": "Login Page test cases BetterVet login - Positive",
+              "timedOut": null,
+              "duration": 7530,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"SIGN UP PAGE\");\n(0, _sign_up_page.GoToLoginPage)();\ncy.log(\"LOGIN PAGE\");\n(0, _login_page.BetterVetLoginProcess)();\ncy.log(\"HOME PAGE\");\n(0, _home_page.HomePageTextValidations)();",
+              "err": {
+                "message": "AssertionError: expected 'Welcome,  Juan \\'_`.-\"' to equal 'Welcomes,  Juan \\'_`.-\"'",
+                "estack": "AssertionError: expected 'Welcome,  Juan \\'_`.-\"' to equal 'Welcomes,  Juan \\'_`.-\"'\n    at Context.eval (https://app-qa.bettervet.com/__cypress/tests?p=cypress/e2e/apps/web-app/login_tests.cy.js:327:28)",
+                "diff": "- 'Welcome,  Juan \\'_`.-\"'\n+ 'Welcomes,  Juan \\'_`.-\"'\n"
+              },
+              "uuid": "60ecb095-27ce-4a3e-97fa-666c59d2c0d7",
+              "parentUUID": "1440f274-2405-487f-ade6-b3f5159645f5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Command login",
+              "fullTitle": "Login Page test cases Command login",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "950ec149-ed07-4daf-a133-a0b2017cdac8",
+              "parentUUID": "1440f274-2405-487f-ade6-b3f5159645f5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Google login - Positive",
+              "fullTitle": "Login Page test cases Google login - Positive",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "5987722a-b996-483e-9b36-1f806244befc",
+              "parentUUID": "1440f274-2405-487f-ade6-b3f5159645f5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c328b617-e00c-4fd8-8e70-d70d280737a1",
+            "30bba20d-b24a-4054-aed2-8b49b7c42f84",
+            "25aad28c-d9ef-4e99-9705-ddbd443c1fec"
+          ],
+          "failures": [
+            "60ecb095-27ce-4a3e-97fa-666c59d2c0d7"
+          ],
+          "pending": [
+            "950ec149-ed07-4daf-a133-a0b2017cdac8",
+            "5987722a-b996-483e-9b36-1f806244befc"
+          ],
+          "skipped": [],
+          "duration": 29371,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "json": true,
+        "html": true,
+        "reportFileName": "report",
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
