@@ -8,6 +8,8 @@ const title = ".PetHeader__welcomeTitle"
 
 export function HomePageTextValidations(){
 
+    cy.get(".desktopOnly > .PetWidget__catImage")
+
     base.shouldContainText(profile_dropdown, "Hi")
     // base.getTextOfElement(profile_dropdown)
     cy.get(profile_dropdown).then((theElement) => {
