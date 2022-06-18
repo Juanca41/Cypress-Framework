@@ -2,11 +2,11 @@
 pipeline { //Must be top level
     agent any //Indicates where to be executed
     stages { //Where the work happens
-        stage('build'){
-            steps {
+        // stage('build'){
+        //     steps {
                 
-            }
-        }
+        //     }
+        // }
         stage('test'){
             steps {
                 script{
@@ -15,10 +15,10 @@ pipeline { //Must be top level
                 }
             }
         }
-        stage('deploy'){
-            steps {
+        // stage('deploy'){
+        //     steps {
             
-            }
-        }
+        //     }
+        // }
     }
 }
