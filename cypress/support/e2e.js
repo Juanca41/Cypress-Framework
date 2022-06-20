@@ -28,6 +28,8 @@ Cypress.on('uncaught:exception', (err, runnable) =>{
     return false;
 })
 
+import addContext from 'mochawesome/addContext'
+
 Cypress.on("test:after:run", (test, runnable) => {
 
     let videoName = Cypress.spec.name
