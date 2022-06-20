@@ -56,17 +56,17 @@ describe("Login Page test cases", () => {
         HomePageTextValidations()
     })
 
-    it.skip("Command login", ()=>{
+    it("Command login", ()=>{
         
         cy.login("juancarlosgularte@bettervet.com","Helloworld10")
     })
 
-    it.skip("Google login - Positive", ()=>{
-        cy.log("SIGN UP PAGE")
-        GoToLoginPage()
+    // it.skip("Google login - Positive", ()=>{
+    //     cy.log("SIGN UP PAGE")
+    //     GoToLoginPage()
 
-        cy.log("LOGIN PAGE")
-        GoogleSignIn()
+    //     cy.log("LOGIN PAGE")
+    //     GoogleSignIn()
 
-    })
+    // })
 })
