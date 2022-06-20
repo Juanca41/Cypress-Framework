@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install and Verify
-      run: 
+      run: |
         npm ci
         $(npm bin)/cypress verify
     
@@ -24,7 +24,7 @@ jobs:
       continue-on-error: false
     
     - name: Copy test executions videos and screenshots
-      run:
+      run: |
         mkdir public
         cp -r cypress/videos public/videos
         cp -r cypress/screenshots public/screenshots
