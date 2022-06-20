@@ -25,7 +25,7 @@ module.exports = defineConfig({
     excludeSpecPattern: '**/2-advanced-examples/*',
   },
   video: true,
-  screenshotsFolder: "cypress/videos",
+  screenshotsFolder: "cypress/screenshots",
   env:{
     user:"juancarlosgularte@bettervet.com",
     password:"Helloworld10"

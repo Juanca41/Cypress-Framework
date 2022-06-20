@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-06-17T06:32:42.243Z",
-    "end": "2022-06-17T06:32:49.264Z",
-    "duration": 7021,
+    "start": "2022-06-20T03:53:45.915Z",
+    "end": "2022-06-20T03:53:53.136Z",
+    "duration": 7221,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6806c93a-45de-4896-aae9-c09ffbcc3713",
+      "uuid": "e4bcbac6-8a45-455f-9c64-033bdf115b09",
       "title": "",
       "fullFile": "cypress/e2e/apps/web-app/video_call_e2e.cy.js",
       "file": "cypress/e2e/apps/web-app/video_call_e2e.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f9e29363-bd44-4cd9-be55-63a93c51bb54",
+          "uuid": "4f0b08ed-26c8-4338-8c86-d12fcefc7985",
           "title": "E2E Booking - Video Call Appointments",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Free Video Call",
               "fullTitle": "E2E Booking - Video Call Appointments Free Video Call",
               "timedOut": null,
-              "duration": 6422,
+              "duration": 6737,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "// HomePageTextValidations()",
               "err": {},
-              "uuid": "d4225317-5df6-416f-90f8-d0f3fe40d21a",
-              "parentUUID": "f9e29363-bd44-4cd9-be55-63a93c51bb54",
+              "uuid": "7489a505-5530-4fdb-809a-ce5fb266f0ae",
+              "parentUUID": "4f0b08ed-26c8-4338-8c86-d12fcefc7985",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d4225317-5df6-416f-90f8-d0f3fe40d21a"
+            "7489a505-5530-4fdb-809a-ce5fb266f0ae"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6422,
+          "duration": 6737,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
