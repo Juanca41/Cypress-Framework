@@ -56,10 +56,10 @@ describe("Login Page test cases", () => {
         HomePageTextValidations()
     })
 
-    it("Command login", ()=>{
+    // it("Command login", ()=>{
         
-        cy.login("juancarlosgularte@bettervet.com","Helloworld10")
-    })
+    //     cy.login("juancarlosgularte@bettervet.com","Helloworld10")
+    // })
 
     // it.skip("Google login - Positive", ()=>{
     //     cy.log("SIGN UP PAGE")
