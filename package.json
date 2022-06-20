@@ -8,8 +8,10 @@
     "cy:open": "npx cypress open",
     "cy:run":"npx cypress run --browser=chrome",
     "cy:run:dashboard":"npx cypress run --browser=chrome --record --key 32ce075f-4568-4687-a3bb-593285642cc7",
-    "combine-reports": "mochawesome-merge ./cypress/reports/mocha/*.json > ./mochareports/report.json",
-    "generate-report": "marge mochareports/*.json --reportDir mochawesome --assetsDir mochawesome/assets --reportPageTitle index.html"
+    "merge-reports": "mochawesome-merge ./cypress/reports/mocha/*.json > ./mochareports/report.json",
+    "generate-report": "marge mochareports/*.json --reportDir mochawesome --assetsDir mochawesome/assets --reportPageTitle index.html",
+    "merge-reports-github": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "generate-report-github": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "keywords": [],
   "author": "Juan Carlos Gularte",
