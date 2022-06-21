@@ -1,14 +1,14 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 5,
-    "passes": 5,
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
     "pending": 0,
     "failures": 0,
     "start": "2022-06-21T04:14:19.881Z",
-    "end": "2022-06-21T04:15:13.493Z",
-    "duration": 38391,
-    "testsRegistered": 5,
+    "end": "2022-06-21T04:14:52.588Z",
+    "duration": 32707,
+    "testsRegistered": 4,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -118,64 +118,6 @@
           "pending": [],
           "skipped": [],
           "duration": 32302,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "49b8cf78-912f-4bfd-8e5d-010a19b1aad1",
-      "title": "",
-      "fullFile": "cypress/e2e/apps/web-app/video_call_e2e.cy.js",
-      "file": "cypress/e2e/apps/web-app/video_call_e2e.cy.js",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "25505b24-8903-4ad6-918f-459117442183",
-          "title": "E2E Booking - Video Call Appointments",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Free Video Call",
-              "fullTitle": "E2E Booking - Video Call Appointments Free Video Call",
-              "timedOut": null,
-              "duration": 6089,
-              "state": "passed",
-              "speed": "medium",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": "\"videos/video_call_e2e.cy.js.mp4\"",
-              "code": "// HomePageTextValidations()",
-              "err": {},
-              "uuid": "d8cb5ec3-4149-4c2a-bb79-aaf1e9c10898",
-              "parentUUID": "25505b24-8903-4ad6-918f-459117442183",
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "d8cb5ec3-4149-4c2a-bb79-aaf1e9c10898"
-          ],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 6089,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

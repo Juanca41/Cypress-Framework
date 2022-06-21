@@ -9,7 +9,7 @@
         "charts": true,
         "reportPageTitle": "custom-title",
         "json":true,
-        "html":true,
+        "html":false,
         "reportFileName":"report",
         "overwrite": false 
     }
