@@ -11,7 +11,7 @@
     "merge-reports": "mochawesome-merge ./cypress/reports/mocha/*.json > ./mochareports/report.json",
     "generate-report": "marge mochareports/*.json --reportDir mochawesome --assetsDir mochawesome/assets --reportPageTitle index.html",
     "merge-reports-github": "mochawesome-merge ./cypress/reports/mocha/*.json > ./mochareports/report.json",
-    "generate-report-github": "marge mochareports/report.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+    "generate-report-github": "marge mochareports/report.json --reportDir public --assetsDir public/assets --reportPageTitle report.html"
   },
   "keywords": [],
   "author": "Juan Carlos Gularte",
