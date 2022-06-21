@@ -35,10 +35,16 @@ module.exports = defineConfig({
   // reporterOptions: {
   //   configFile: "reporterOptions.json"
   // }
+
+  //Files will be created in ./mochawesome-report
   reporter: "mochawesome",
   reporterOptions: {
         "overwrite": false,
         "html": false,
         "json": true
-    }
+    },
+  retries: {
+    runMode: 1, //For the headless mode
+    openMode: 2 //For the open runner mode (cypress UI runner)
+  }
 })

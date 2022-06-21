@@ -1,0 +1,39 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "_id": "62743ecbf1000212bb5645ca",
+            "billingAddress": {
+                "address1": "150 Littlefield Ln",
+                "city": "Cypress City",
+                "zipCode": "01752",
+                "state": "MA"
+            },
+            "billingPostalCode": "01752",
+            "cardNumber": "Cypress card1",
+            "client": "615d8d87dd1a8c001c738535",
+            "expirationDate": "0921",
+            "type": "VS",
+            "deleted": false,
+            "createdAt": "2022-05-05T21:16:59.546Z",
+            "updatedAt": "2022-05-05T21:16:59.546Z"
+        },
+        {
+            "_id": "62743eb6f1000212bb5645ba",
+            "billingAddress": {
+                "address1": "150 Littlefield Ln",
+                "city": "Marlborough",
+                "zipCode": "01752",
+                "state": "MA"
+            },
+            "billingPostalCode": "01752",
+            "cardNumber": "Cypress card2",
+            "client": "615d8d87dd1a8c001c738535",
+            "expirationDate": "0920",
+            "type": "VS",
+            "deleted": false,
+            "createdAt": "2022-05-05T21:16:38.504Z",
+            "updatedAt": "2022-05-05T21:16:38.504Z"
+        }
+    ]
+}

@@ -15,6 +15,7 @@ import { BaseMethods } from "../helpers/base_methods"
 
 // -- This is a parent command --
 Cypress.Commands.add('login', (user, password) => {
+    cy.visit("/")
     const base = new BaseMethods()
     base.clickElement("a > span")
     base.typeText("input[placeholder='Email']", user)
