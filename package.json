@@ -8,12 +8,10 @@
     "cy:open": "npx cypress open",
     "cy:run":"npx cypress run --browser=chrome",
     "cy:run:dashboard":"npx cypress run --browser=chrome --record --key 32ce075f-4568-4687-a3bb-593285642cc7",
-    "merge-reports": "mochawesome-merge ./cypress/reports/mocha/*.json > ./mochareports/report.json",
-    "generate-report": "marge mochareports/*.json --reportDir mochawesome --assetsDir mochawesome/assets --reportPageTitle index.html",
-    "merge-reports-github": "mochawesome-merge ./cypress/reports/mocha/*.json > ./mochareports/report.json",
-    "generate-report-github": "marge mochareports/report.json --reportDir public --assetsDir public/assets --reportPageTitle report.html",
-    "combine:report": "mochawesome-merge ./mochawesome-report/*.json -o index.json",
-    "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+    "merge-reports": "mochawesome-merge ./mochawesome-report/*.json -o index.json",
+    "generate-report": "marge index.json --reportDir report-generated --assetsDir report-generated/assets --reportPageTitle index.html",
+    "merge-reports-github": "mochawesome-merge ./mochawesome-report/*.json -o index.json",
+    "generate-report-github": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "keywords": [],
   "author": "Juan Carlos Gularte",

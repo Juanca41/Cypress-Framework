@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="6.5420" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2022-06-21T04:15:07" tests="0" file="cypress/e2e/apps/web-app/video_call_e2e.cy.js" time="0.0000" failures="0">
-  </testsuite>
-  <testsuite name="E2E Booking - Video Call Appointments" timestamp="2022-06-21T04:15:07" tests="1" time="5.8050" failures="0">
-    <testcase name="E2E Booking - Video Call Appointments Free Video Call" time="6.0890" classname="Free Video Call">
-    </testcase>
-  </testsuite>
-</testsuites>
