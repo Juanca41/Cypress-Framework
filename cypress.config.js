@@ -31,9 +31,14 @@ module.exports = defineConfig({
     password:"Helloworld10"
   },
   projectId: "7b7ug4",
-  reporter: "cypress-multi-reporters",
-  // reporter: "mochawesome",
+  // reporter: "cypress-multi-reporters",
+  // reporterOptions: {
+  //   configFile: "reporterOptions.json"
+  // }
+  reporter: "mochawesome",
   reporterOptions: {
-    configFile: "reporterOptions.json"
-  }
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
 })

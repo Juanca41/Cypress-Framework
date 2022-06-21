@@ -7,7 +7,6 @@
     "mochawesomeReporterOptions": {
         "reportDir": "cypress/reports/mocha",
         "charts": true,
-        "reportPageTitle": "custom-title",
         "json":true,
         "html":false,
         "reportFileName":"report",
